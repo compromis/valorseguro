@@ -1,0 +1,14 @@
+/* BUTTON STYLES */
+.wpg-button {
+	border: 2px solid $primary-color;
+	text-transform: capitalize;
+	color: $secondary-color;
+	padding: 15px 30px;
+	line-height: 1.2;
+	display: inline-block;
+	background: $primary-color;
+}
+.wpg-button:hover {
+	background: transparent;
+	color: $primary-color;
+}
