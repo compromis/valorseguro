@@ -45,6 +45,16 @@
       padding-top: 3rem;
     }
 
+    .marquee-wrapper {
+      display: flex;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .marquee-fixed {
+      width: auto;
+    }
+
     .criminal {
       display: flex;
       margin-top: 4rem;
@@ -110,64 +120,66 @@
     <header>
       <img src="images/valorseguro_header.png" alt="Mejor llama a pablo!" />
     </header>
-    <marquee>
-        CASOS DE ÉXITO:
-        Gürtel
-        Bárcenas
-        Imelsa
-        Taula
-        Nóos
-        Andratx
-        Arena
-        Auditorio
-        Baltar
-        Bankia
-        Biblioteca
-        Bárcenas
-        Caballo de Troya
-        CAM
-        Campeón
-        Carioca
-        Cementerio
-        Cifuentes
-        Conde Roa
-        El de la construcción
-        Cooperación
-        La Ciudad del Golf
-        El Lino
-        El Roblillo
-        Emarsa
-        Fabra
-        Faycan
-        Funeraria
-        Guateque
-        Hügel
-        Ibatur
-        Imelsa
-        Lasarte
-        Lezo
-        Líber
-        Lifeblood
-        Madeja
-        Naseiro
-        Nóos
-        Orquesta
-        Over Márketing
-        Yo
-        Palma Arena
-        Parques Eólicos
-        Patos
-        Piscina
-        Pokémon
-        Porto
-        Púnica
-        Rasputin
-        Scala
-        Taula
-        Terra Natura
-        Totem
-        Troya
-    </marquee>
+    <div class="marquee-wrapper">
+      <div class="marquee-fixed">CASOS DE ÉXITO:</div>
+      <marquee>
+          Gürtel
+          Bárcenas
+          Imelsa
+          Taula
+          Nóos
+          Andratx
+          Arena
+          Auditorio
+          Baltar
+          Bankia
+          Biblioteca
+          Bárcenas
+          Caballo de Troya
+          CAM
+          Campeón
+          Carioca
+          Cementerio
+          Cifuentes
+          Conde Roa
+          El de la construcción
+          Cooperación
+          La Ciudad del Golf
+          El Lino
+          El Roblillo
+          Emarsa
+          Fabra
+          Faycan
+          Funeraria
+          Guateque
+          Hügel
+          Ibatur
+          Imelsa
+          Lasarte
+          Lezo
+          Líber
+          Lifeblood
+          Madeja
+          Naseiro
+          Nóos
+          Orquesta
+          Over Márketing
+          Yo
+          Palma Arena
+          Parques Eólicos
+          Patos
+          Piscina
+          Pokémon
+          Porto
+          Púnica
+          Rasputin
+          Scala
+          Taula
+          Terra Natura
+          Totem
+          Troya
+      </marquee>
+    </div>
     <section class="criminal">
       <div class="col images">
         <img src="images/mimaster.png" alt="Pregúntame sobre mi master" />
