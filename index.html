@@ -34,12 +34,9 @@
   <meta property="twitter:image" content="https://valorseguro.org/images/thumbnail.jpg" />
   <meta property="twitter:url" content="https://valorseguro.org" />
   <style>
-    body,
-    html {
+    body {
       background: rgb(44,36,173);
       background: linear-gradient(0deg, rgba(44,36,173,1) 0%, rgba(199,246,255,1) 100%);
-      width: 100%;
-      min-height: 100vh;
       font-family: "Arial Black", Arial, sans-serif;
     }
 
@@ -97,8 +94,10 @@
 
     .confianza h2 {
       font-size: 3rem;
-      color: red;
+      color: cyan;
       text-align: center;
+      background-color: darkblue;
+      padding: 1rem 0;
     }
 
     .amiguitos {
@@ -150,6 +149,11 @@
       padding: 0.25rem;
       font-size: 1.25rem;
       text-transform: uppercase;
+    }
+
+    .audio {
+      margin-top: 2rem;
+      text-align: center;
     }
 
     .firma {
@@ -254,7 +258,7 @@
       <img src="images/banner-transparencia.jpg"/>
     </section>
     <section class="confianza">
-      <h2>GENTE DE CONFIANZA</h2>
+      <h2><img src="images/gaviota.gif" alt="" valign="middle" /> GENTE DE CONFIANZA <img src="images/gaviota.gif" alt="" valign="middle"  /> </h2>
       <div class="amiguitos">
         <div class="amiguito"><img src="images/mariano.jpg" alt="M punto" /></div>
         <div class="amiguito"><img src="images/isabel.jpg" alt="Isabel" /></div>
@@ -265,7 +269,14 @@
       </div>
     </section>
     <footer>
-      <div class="español"> Se habla español &phone; 601 631 074 </div>
+      <div class="español">Se habla español &phone; 601 631 074 </div>
+      <div class="audio">
+        <audio id="audio" controls autoplay>
+          <source src="audio/pp.ogg" type="audio/ogg">
+          <source src="audio/pp.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
       <div class="firma">Valor seguro és una web de <a href="https://compromis.net">Compromís</a></div>
     </footer>
     <aside class="banner left">
