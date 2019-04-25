@@ -64,6 +64,26 @@
     .amiguito img {
       width: 100%;
     }
+
+    .banner {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+    }
+
+    .banner span {
+      display: block;
+      background: #333;
+      color: #DDD;
+      font-size: .75rem;
+      padding: .25rem;
+      text-align: center;
+    }
+
+    .banner.right {
+      left: auto;
+      right: 1rem;
+    }
   </style>
 </head>
 <body>
@@ -140,7 +160,7 @@
       </div>
     </section>
     <section class="confianza">
-      <h2>LA GENTE QUE CONFÍA EN MI</h2>
+      <h2>GENTE DE CONFIANZA</h2>
       <div class="amiguitos">
         <div class="amiguito"><img src="images/mariano.jpg" alt="M punto" /></div>
         <div class="amiguito"><img src="images/isabel.jpg" alt="Isabel" /></div>
@@ -148,9 +168,18 @@
         <div class="amiguito"><img src="images/santi.jpg" alt="Santi" /></div>
       </div>
     </section>
-    <footer>
-      Compromis
-    </footer>
+    <aside class="banner left">
+      <a href="https://imparables.compromis.net" target="_blank" rel="noopener">
+        <span>PUBLICIDAD</span>
+        <img src="images/baldobanner.jpg" alt="Joan Baldoví, agència antifrau" />
+      </a>
+    </aside>
+    <aside class="banner right">
+      <a href="https://imparables.compromis.net" target="_blank" rel="noopener">
+        <span>PUBLICIDAD</span>
+        <img src="images/baldobanner.jpg" alt="Joan Baldoví, agència antifrau" />
+      </a>
+    </aside>
   </div>
 </body>
 </html>
